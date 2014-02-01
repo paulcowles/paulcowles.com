@@ -38,7 +38,7 @@ Pauls-MacBook-Pro:~ paulcowles$ id
 uid=501(paulcowles) gid=20(staff) groups=20(staff)...
 {% endhighlight %}
 
-Login as the "secondary" admin account on your VM. Assuming our usual account for development on VM matches our Mac and is "paulcowles" then let's logout of paulcowles and login as admin
+Login as the "secondary" admin account on your VM. Assuming our usual account for development on VM matches our Mac and is "paulcowles" then let's logout of paulcowles and login as admin. You need to be logged in as another user as you cannot change the uid of the user you are currently logged in as.
 
 {% highlight sh %}
 Pauls-MacBook-Pro:~ paulcowles$ ssh admin@192.168.2.85

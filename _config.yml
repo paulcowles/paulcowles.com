@@ -1,5 +1,14 @@
-name: paulcowles.com
-markdown: redcarpet
-pygments: true
-timezone: America/Toronto
-encoding: UTF-8
+title:        Paul Cowles
+tagline:      'Paul Cowles'
+description:  'Ramblings of a digital nomad.'
+url:          http://www.paulcowles.com
+version:      1.1.1
+author:
+  name:       'Paul Cowles'
+  email:      'paul.cowles@gmail.com'
+markdown:     redcarpet
+permalink:    pretty
+pygments:     true
+paginate:     5
+timezone:     America/Toronto
+encoding:     UTF-8
