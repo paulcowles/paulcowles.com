@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Paypal Innovate"
+date:   2009-07-11 00:00:00
+categories: conferences
+tags: paypal
+permalink: paypal-x-2009
+---
+
+Last week I took in PayPal Innovate 2009 &#8211; PayPal&#8217;s first dedicated developer conference. The conference coincided with the launch of their new developer portal X.com.
+
+One of my favourite sessions was Banking the Unbanked: Opportunities for P2P in the U.S. and Developing World. Long interested in microfinance and mobile payments, it was great to hear some of the latest statistics and more detail about stories like M-PESA in Kenya. Basically M-PESA stole majority of the Kenyan market for money transfers in just 1 years time from Bus and Postal companies. A few of the interesting mentions in the session:
+
+- 75% of the world&#8217;s phones are in the developing world
+- Most of this 75% uses a prepaid service
+- Just-in-time education is working when it comes to the underbanked
+- People are using balances on their phones as a savings account
+- Mobile is the first communication technology in the hands of more poor than rich
+- 1 billion unbanked have mobile phones
+- Cash to prepaid minutes has been a big success (see M-PESA)
+- What other technologies will evolve that allow people to turn cash into online cash?
+- Blue Label mentioned that In and Out channels are extremely important
+
+During the VC Keynote on the second day, one of the speakers mentioned how in China today 95% of the business is being done as cash on delivery (COD). That said, they saw big opportunities right now in B2B payments, Prepaid and Overseas.
+
+In the panel discussion on Digital Goods and Micropayments, the rep. from Offerpal shared that upon localizing their PayPal &#8220;Buy now&#8221; button, they saw an immediate 20% increase in conversions. Someone else mentioned that when they tested credit card only payments their conversions declined. There was general consensus that the more ways to pay the better &#8211; credit cards, PayPal, mobile etc.
+
+The new APIs will definitely help streamline the user experience and there was big news around reduced cost if the buyer has funds on balance or is funding via bank transfer. Basically, where PayPal is able to cut costs on moving money in, they seem to be willing to cut costs in turn on money moving out to you. 
+
+Parts of the conference felt a bit heavy on the marketing, and the wifi was horrendous, but overall I think probably exceeded expectations on both sides.
+
+I think PayPal has made a very smart move in reaching out (marketing to) the developer community. Those companies who can create a vibrant developer ecosystem can ride the wave of innovation from the crowd to a dominating market position as has been proven recently by Google, Facebook and Apple.
+
+With all the flights I was also able to start and finish Paul Theroux&#8217;s Happy Isles of Oceania: Paddling the Pacific. It was entertaining enough to keep me glued for 8 hours straight on the way to San Francisco.

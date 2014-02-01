@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "SD Best Practices 2006, Boston"
+categories: conferences
+tags: sd boston
+permalink: sd-boston
+---
+
+Last week I was able to attend the SD Best Practices conference in Boston. The conference ran Monday through Thursday - and was held at the Hynes Convention Center - located right in the heart of downtown Boston, which meant walking distance to Newbury street and Boston Common. 
+
+It was interesting to compare the SD Best Practices conference (put together by the Dr. Dobb&#8217;s group) with the Emerging Technology conference (put together by O&#8217;Reilly) from this past year. I felt the ETech conference was a higher energy, better attended, and more visionary conference whereas the SDBP lacked buzz but was more focused on real world situations and problems faced by those of us working in larger enterprises. A familiar scene at Etech was small groups of participants huddled together after sessions, exchanging ideas and brainstorming new approaches. At SDExpo this wasn&#8217;t the case - in my experience to compare the two conferences is to compare working at a start-up vs. working at a multinational. If you&#8217;re looking to push the limits of the Web or are looking for inspiration, Etech would be your better bet. If you are looking for ideas to improve your modified agile development process or need to improve your ability to deliver use cases or user scenarios - SDExpo would be your choice. Of course this is an over simplified view and both conferences had their share of brilliance. Enough with trying to compare apples and oranges&#8230;
+
+The conference was organized into a number of tracks - requirements &#038; analysis, testing &#038; quality, process &#038; methods, people &#038; teams and so on. My observation over the 4 days was that the requirements &#038; analysis &#8216;classes&#8217; were very well attended but almost all the others were at most near 25% capacity. If you open the thumbnail I&#8217;ve inserted here you can see what I mean. Plenty of room - was attendance below expectations or were the rooms not properly sized? Either way, the relative emptiness really lowered the energy and decreased the discussion. 
+
+Before I move on to the sessions themselves - one other thing that bothered me about SDBP was the lack of openness and planning for collaboration on the Web. Where Etech pushed discussion post sessions via blogging and tagging - SDBP didn&#8217;t facilitate any of this and actually squirreled conference presentations away behind password prompts. If I was a presenter at SDBP, I&#8217;d certainly be pushing them to open up the resources section - free those ideas, why wouldn&#8217;t you want to engage the Web? It seems Dr. Dobb&#8217;s is still very much &#8216;old school&#8217; in their thinking about the conference as a set of &#8216;classes&#8217; and not an exchange of ideas.
+
+Okay, so after all of this you may be getting the impression that I wouldn&#8217;t go back next year - but not so. The sessions themselves were for the most part excellent, challenging my thoughts on a number of subjects and I definitely took away a number of things I could implement into my teams right away. Below are my thoughts on some of the sessions I attended:
+
+*Agile Model-Driven Development - Scott Ambler*
+
+Surprisingly (because Scott is on the conference advisory board and also an editor with Dr. Dobb&#8217;s), Scott was one of my least favorite speakers of the conference - his presentation style left me feeling that Scott was a &#8216;black and white&#8217; kind of guy and I actually thought he offended a number of people in the audience. I should have predicted this at the onset as Scott opened his session by telling us how someone stormed out of his last session - and how this person was clearly an idiot. Here were a few quotes Scott threw out during his presentation:
+
+
+- &#8220;..writing requirements early in the software development process is actually demonstrating incompetence..&#8221;
+
+- Addressing an audience member - &#8220;Let me guess, you&#8217;re in software quality right? Another over-specialized person&#8230;&#8221;
+
+- &#8220;Why have acceptance tests and requirements documents? QA just copies and pastes!&#8221;
+
+Even though I disagreed with how Scott put some of his points, in most cases I did agree with the underlying ideas. He did bring a common sense and blunt approach with a fresh perspective to some of the aspects of traditional development - arguing against ideas such as BRUF (Big Requirements Up Front) and traditional change management (or as Scott suggested - change prevention) implementations. I particularly liked Scott&#8217;s discussion of Change cases.
+
+*Developing .NET Software Properly - Christian Gross*
+
+I only caught the last half of Christian&#8217;s session - but his discussion of .NET Generics and NullableParser was a good overview to some of the nice additions to .NET 2.0
+
+*Scenario-Driven Development - Granville Miller*
+
+Granville (Randy) works on the Visual Studio Team System project with Microsoft. Randy argued that scenarios are an effective way to capture requirements within an agile process. He showcased some of the artifact templates available within MSF (Microsoft Solutions Framework) - of which some like the Vision template would be applicable to almost any project. While none of the ideas were revolutionary, Randy presented some effective techniques for capturing scenarios via defining the vision, the personas, the and the user goals.
+
+*Effective Aspect-Oriented Programming - Rod Bodkin*
+
+Prior to this session I hadn&#8217;t much exposure to AOP. Rod walked us through AOP using AspectJ. For elements or functions that &#8216;cross cut&#8217; or span many of your application classes - such as logging or exception handling - aspect oriented programming is very appealing. And the fact of the matter is that almost every application has a number of these elements - leading me to believe that AOP will very soon be a staple in every programmer&#8217;s &#8216;toolbox&#8217;  just as OOP is today. AOP allows you to encapsulate features - to be plugged/unplugged or enabled/disabled at build or runtime. Rod demonstrated how AOP can be used to reduce code duplication as well as warn on architectural policy violations (eg. calling business layer from data layer). I found this part especially interesting given that it always seems to be a battle to monitor all members of the team for compliance to basic architectural standards. The only downside to Rod&#8217;s talk was that it was entirely Java centric - and when asked about related .NET projects, Rod wasn&#8217;t able to share much guidance. 
+
+*Introducing Problem-Frames - Rebecca Wirfs-Brock*
+
+I wasn&#8217;t able to take away much from this presentation - the real-world applicability seemed limited given that the modeling diagrams seemed at the same time both too simplistic and also hard to interpret. The highlight of this session for me was when Rebecca, in getting an audience member involved for an example interaction, asked &#8220;Would you mind being a human?&#8221; It is moments like these that remind me that I&#8217;m moving in a very <i>special</i> crowd when I&#8217;m at these developer&#8217;s conferences.
+
+*Introduction to Holacracy - Brian Robertson*
+
+Brian was a very interesting guy and a very engaging high energy speaker. Brian has his own company and uses the principles of Holacracy in his own organization. Holacracy is a system of practices - used to transform organizations - with promises of engaged employees and business agility. One of the core ideas is that a company is much like the human body - a greater whole made up of self-governing smaller wholes. I couldn&#8217;t help but feel that the practices, while practical, were also a bit utopian - easier implemented in a smaller company with fewer complexities. 
+
+*Web 2.0 acceptance testing tools and techniques - Jeff Nielsen &#038; Bob Payne*
+
+Jeff and Bob were very entertaining - were these guys a comedy duo before getting into QA? They started with why you would want to automate functional testing then moved to creation of a decision matrix for selecting the best tool. It always amazes me how many companies evaluate software *without* having such a matrix in place. Jeff and Bob summarized some of the tools available for Web 2.0 (think heavy Ajax) testing currently - htmlunit, Canoo WebTest, QTP, Selenium, FitNesse, WATIR, and Longboard. They gave a real running demo of a suite of tests in Selenium. If you have QA specialists who are able to write code - WATIR looks very powerful - ruby based, controlling IE via COM. Selenium is a little simpler in terms of constructing tests and is completely browser based. Love the geek humor - Selenium is the element used to detoxify Mercury. 
+
+*Writing Effective User Stories for Agile Requirements - Mike Cohn*
+
+Mike gave an excellent session on perfecting user stories - regardless of whether or not you are using an agile process. Some points I thought worth noting:
+
+- A story can be broken down into 3 parts: Card (Story), Conversation (Notes after a talk with the product owner/customer), and Confirmation (the acceptance tests). If you make the conversation standard you ensure you keep talking to the customer.
+
+- We tend to write stories for &#8220;The User&#8221;. Of course this is BS, as there is never one &#8216;user&#8217;. We should define the different roles (or personas as others may call them) and use them when defining stories.
+
+- Users don&#8217;t know the answers - involve them, but don&#8217;t ask them for solutions - use participatory design. An example, you don&#8217;t tell the doctor how to solve the pain in your abdomen - you ask them for the solution. Same concept. 
+
+- Good stories are independent, negotiable, valuable, estimatable, sized appropriately and testable
+
+- Use cases are not user stories. 
+
+*Creating change one tic-tac at a time - Alistair Cockburn &#038; Jeffrey Fredrick*
+
+When organizations attempt to change their process there is inevitably a period of productivity loss. During this &#8216;pain period&#8217; many might abandon the new process if the payback is perceived to be too far away. As change agents, we need to ensure the expectation of this dip is set from the onset. One strategy they recommend is to run through the entire new process on a small scale - an &#8216;extreme hour&#8217;. This will help eliminate confusion and show that the new process is possible. 
+
+I&#8217;ve run project retrospectives on many occasions, and I liked the approach Jeffrey and Alistair recommend in terms of focusing on the positives only. Use &#8216;worked well&#8217; and &#8216;try next time&#8217; instead of &#8216;worked well&#8217; and &#8216;needs improvement&#8217;. They are correct when they say that the team often gets stuck on the &#8216;needs improvement&#8217; list. 
+
+They also touched on small rewards vs. big rewards and how small &#8216;meaningless&#8217; rewards have the better result. If you do X and receive $5k, subconsciously you know you did it for the money. If you do X and receive a small token (sticker, bobblehead whatever), subconsciously you know you didn&#8217;t do it for that meaningless reward but rather because you know it is the right thing to do. This approach seems to work best when markers are socially visible. 
+
+*Business Rules - Mary Gorman*
+
+Mary introduced the IIBA - The International Institute of Business Analysis. She discussed  how to break out business policies from rules and also how to break rules out from use cases. This last part is particularly important - it is true that most use cases I&#8217;ve seen contain business rules embedded within them, stitched in all over the place. If you can remove the business rules from the use cases you attain modularity and can reduce rework as business rules tend to change more often. Mary also talked about strategies for keeping the business rules, use cases and data definitions in separate repositories and merging them on the fly into a single document for the development team - as we all know developers hate jumping from one document to the other. Examples illustrated rules defined using English language and pseudo code.
+
+*Making .NET and Java work together - Ted Neward*
+
+Ted&#8217;s session was one of my favorites at SDBP. Ted threw away the slides and basically conducted a group conversation - mixing questions with example code and demos. Ted really took us through a deep dive - he&#8217;s got an extremely deep technical understanding of both platforms. I hadn&#8217;t looked at ikvm before this session - and I was blown away at the demonstration. ikvm gives you a Java Virtual Machine implemented in .NET, a .NET implementation of the Java class libraries, and the ability to compile java byte code to CIL. 
+
+Discussion also included Juggernet and JNbridge. I will be downloading Lutz Roeder&#8217;s Reflector for .NET after seeing it used in this session. 
+
+In discussions about VMWare, Ted mentioned some MSFT friends who have been running Windows inside Parallels on the new MacBook Pros and getting better performance than non virtual installation on a Thinkpad. Not sure if it is true, but if so - I really have to look at getting that MacBook.
+
+*openUP Distilled - Brian Lyons &#038; Per Kroll*
+
+Download the process and start contributing. &#8220;OpenUP/Basic is an iterative software development process that is minimal, complete, and extensible.&#8221; - a great initiative. Eventually, RUP may be implemented as plugin modules on top of openUP. Other process practices could also be implemented as plugin modules. Brian and Per showcased the downloadable framework which included process diagrams, role definitions and more. This was driven out of real-world experiences of developing eclipse. I think it is about time that we have a project like this mature - so that development teams can have a process framework available in an open climate - and so that modifications can be contributed back as plugins. We don&#8217;t re-invent the wheel when it comes to code - why are we still doing it to a greater degree with development process artifacts?
+
+*Balancing traditional and agile project management - Sonja Koppensteiner*
+
+I really enjoyed Sonja&#8217;s talk - and based on comments from the audience, Sonja really connected with many of the management in attendance that don&#8217;t live in the perfect purist world and have implemented a customized process for their development. I always get a kick out of the speakers who ask &#8216;Who here does XP&#8217;, &#8216;Who does SCRUM&#8217;, &#8216;Who does RUP&#8217; - when in reality I&#8217;ve never been part of a company that practices a purist version of any of the processes. In reality, everyone uses a modified process - the scope or magnitude of the modifications is the variable.  That is of course how it should be - organizations should be constantly refining their processes to find the perfect solution for their unique circumstances, culture etc. Sonja introduced some good models for evaluating each project - to find the elements from &#8216;traditional&#8217; methodologies you should adopt together with the elements from &#8216;agile&#8217; methodologies. I think once the Agile hype dies down a little, there will be more focus on this space as we balance back to picking the best from each process style to find the optimal solution for each individual project.

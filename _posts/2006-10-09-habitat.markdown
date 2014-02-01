@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Habitat for Humanity"
+categories: conferences
+tags: charity
+permalink: habitat-for-humanity
+---
+
+![Me helping Habitat for Humanity](/public/images/habitat.jpg)
+
+This past Friday a crew of us from CCH Canadian contributed a day towards building homes as part of Habitat for Humanity. We had close to 30 volunteers - tackling insulation, drywalling, and preparation for window installation among other things. I’d always wanted to help out with this program, so Friday was well overdue. It was hard work (not to mention the fact I’m still coughing up pink insulation), but at the end of the day you could really see the progress our team made. Kudos to CCH for sponsoring the day - great to get out of the office and give a hand up.

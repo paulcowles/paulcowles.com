@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Google IO"
+categories: conferences
+tags: google
+permalink: google-io
+---
+
+![Google IO Registration by lectroidmarc](http://farm3.static.flickr.com/2248/2537386335_7186b71056.jpg)
+
+Last week I was fortunate enough to take in the GoogleIO conference in San Francisco. This was google&#8217;s first developer conference &#8211; a quick 2 day event. As you can see from the photo, the event was well attended. Some take-aways from this past week:
+
+
+- GWT really should be evaluated on any project with aggressive javascript/ajax use.
+- Translation API mixed with crowdsourced editing is a very interesting global strategy
+- Steve Souders is diving deep into performance bottlenecks and his presentations are must reads.
+- Storage API coming soon to google maps allows you to free your user generated geodata, allowing it be found more easily via google search.
+- Android, running on hardware similar to iphone, with streetview maps and overlays would really solve the local promotions/coupon problem
+- Still no gdata access to search Youtube via geo. Having this for Picassa might actually take some market share from flickr.
+- Google Gears makes me want to find a problem that needs offline access as part of the solution.
+- Once they crack facebook, there will only be one choice: opensocial
+- The visualization api has a number of interesting components &#8211; intensity maps with events would really come in handy

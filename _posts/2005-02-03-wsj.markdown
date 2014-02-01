@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Web Services and the Semantic Web"
+categories: articles
+tags: wsj 
+permalink: published-web-services-journal
+---
+
+Check out my article "Web Services and the Semantic Web" in this month's [Web Services Journal](http://cloudcomputing.sys-con.com/node/39631) *Volume 2, Issue 12*
