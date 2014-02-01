@@ -1,0 +1,5 @@
+name: paulcowles.com
+markdown: redcarpet
+pygments: true
+timezone: America/Toronto
+encoding: UTF-8
